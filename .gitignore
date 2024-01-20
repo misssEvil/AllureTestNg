@@ -3,6 +3,9 @@
 
 /.allure
 
+/.idea
+
+
 *.iws
 *.iml
 *.ipr
