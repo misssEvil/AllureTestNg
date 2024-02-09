@@ -4,6 +4,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import runner.CucumberDriver;
@@ -11,6 +14,8 @@ import runner.CucumberDriver;
 import static runner.CucumberDriver.getDriver;
 
 public class CucumberSteps {
+
+
 
     @When ("Open Main Page")
     public void openRedRoverMainPageP(){
