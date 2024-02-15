@@ -24,7 +24,7 @@ public class mainPageTest extends BaseTest {
     public void openRedRoverMainPageN(){
 
         getDriver().get("https://redrover.school");
-        Assert.assertEquals(getDriver().getTitle(), "RedRover Non-commercial it-school");
+        Assert.assertEquals(getDriver().getTitle(), "RedRover | Non-commercial it-school");
 
     }
 
