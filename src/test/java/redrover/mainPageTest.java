@@ -19,14 +19,14 @@ public class mainPageTest extends BaseTest {
 
     }
 
-/*  @Story("Open main page")
+  @Story("Open main page")
     @Test
     public void openRedRoverMainPageN(){
 
         getDriver().get("https://redrover.school");
         Assert.assertEquals(getDriver().getTitle(), "RedRover Non-commercial it-school");
 
-    }*/
+    }
 
 
     @Epic("Main page")
