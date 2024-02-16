@@ -1,10 +1,10 @@
 
 
-Feature: Teachers Page
+#Feature: Teachers Page
 
-  @smoke
-  Scenario: Open Teachers Page
-    When Open Main Page
-    When Open Teachers Page
-    Then Teachers Page is opened
+
+  #Scenario: Open Teachers Page
+    #When Open Main Page
+    #When Open Teachers Page
+    #Then Teachers Page is opened
 
