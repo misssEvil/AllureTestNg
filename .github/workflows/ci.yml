@@ -42,7 +42,7 @@ jobs:
       with: 
         image: goldenjenkins/new
         registry: docker.io
-        tags: v1
+        tags: v1-myapp
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
